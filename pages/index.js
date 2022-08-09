@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return(
-    <div>
+    <div className='bg-red-100 text-sm'>
       top
       <Link href='/hello'><a>Helloページへのリンク</a></Link>
       <Image
@@ -13,6 +13,5 @@ export default function Home() {
         alt='パレッティ公式キャラクター'
       />
     </div>
-
   )
 }
